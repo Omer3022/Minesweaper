@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="omer.css">
+</head>
+<body onload="init(4)" >
+    <h1 > Minesweeper</h1>
+    <button onclick="init(4)" class="Beginner">Beginner</button>
+    <button onclick="init(8)" class="Medium">Medium</button>
+    <button onclick="init(12)" class="Expert">Expert</button>
+    <div onclick="onClick()" class="board-container"></div>
+    <script src="js/utils.js"></script>
+    <srcipt src="js/mines.js"></srcipt>
+    <script src="js/main.js"></script>
+
+    
+</body>
+</html>

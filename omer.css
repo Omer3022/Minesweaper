@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(159, 90, 183);
+    text-align: center;
+    
+}
+
+h1{
+    color: rgb(233, 233, 13);
+    font-style: italic;
+    text-shadow: 3px 0 rgb(0, 0, 0) ;
+    font-size: 2cm;
+}
+
+.Medium{
+    height: 45px;
+    font-size: 3ch;
+    border-radius: 4px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.Beginner{
+    height: 45px;
+    font-size: 3ch;
+    border-radius: 4px;
+    font-weight: bold;
+    
+
+}
+
+.Expert{
+    height: 45px;
+    font-size: 3ch;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: rgb(142, 179, 225);
+  }
+
+.board-container{
+  
+    margin-left: 45%; 
+    margin-top: 20px;
+}  
